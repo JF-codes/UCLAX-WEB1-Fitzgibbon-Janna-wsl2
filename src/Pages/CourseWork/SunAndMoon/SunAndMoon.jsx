@@ -31,8 +31,9 @@ const changeToSun =()=>{
   return( <SunAndMoonStyled>
     
     <h2>Sun and Moon</h2>
+    <div className="sunMoonImage">
     <img src={imgSrc}onMouseEnter={changeToMoon}onMouseLeave={changeToSun}/>
-    
+    </div>
     </SunAndMoonStyled>
   );
 }
@@ -41,6 +42,7 @@ export default SunAndMoon;
 
 //CSS Styles
 const SunAndMoonStyled=styled.div`
+.sunMoonImage {
 text-align:center;
 h2{
   font-size:50px;
@@ -53,5 +55,5 @@ img {
   padding:20px;
   background-color: #005252;
 }
-
+}
 `;
