@@ -1,13 +1,13 @@
-import styled from 'styled-components';
-import { NavLink } from 'react-router-dom';
+import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 /* Components ---------------------------*/
-import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import Inset from "../Inset.jsx";
+import SiteLogo from "../SiteLogo/SiteLogo.jsx";
 
-const Header = () => {
+const MediumLarge = () => {
     return (
-        <HeaderStyled className="Header">
+        <MediumLargeStyled className="MediumLarge">
             <Inset>
                 <div className="inset">
                     <div className="logo">
@@ -15,23 +15,23 @@ const Header = () => {
                     </div>
                     <div className="menus">
                         <nav className="mainMenu">
-                            <NavLink to={'/'} end>
+                            <NavLink to={"/"} end>
                                 Home
                             </NavLink>
-                            <NavLink to={'/staff'}>Staff</NavLink>
-                            <NavLink to={'/contact'}>Contact</NavLink>
-                            <NavLink to={'/course-work'}>Course</NavLink>
+                            <NavLink to={"/staff"}>Staff</NavLink>
+                            <NavLink to={"/contact"}>Contact</NavLink>
+                            <NavLink to={"/course-work"}>Course</NavLink>
                         </nav>
                     </div>
                 </div>
             </Inset>
-        </HeaderStyled>
+        </MediumLargeStyled>
     );
 };
 
-export default Header;
+export default MediumLarge;
 
-const HeaderStyled = styled.header`
+const MediumLargeStyled = styled.div`
     color: white;
 
     .logo {
