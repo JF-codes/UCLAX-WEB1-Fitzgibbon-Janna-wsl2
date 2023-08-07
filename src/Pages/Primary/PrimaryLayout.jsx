@@ -1,16 +1,13 @@
-import styled from 'styled-components';
-import { Outlet } from 'react-router-dom';
+import styled from "styled-components";
+import { Outlet } from "react-router-dom";
 
-import Inset from '@/Common/PagesLayout/Inset';
-
-const PrimaryLayout = ()=> {
-  return (
-  <PrimaryLayoutStyled className='PrimaryLayout' >
-   <Inset> <Outlet/></Inset>
-
-  </PrimaryLayoutStyled>
-  );
-}
+const PrimaryLayout = () => {
+    return (
+        <PrimaryLayoutStyled className="PrimaryLayout">
+            <Outlet />
+        </PrimaryLayoutStyled>
+    );
+};
 
 export default PrimaryLayout;
 

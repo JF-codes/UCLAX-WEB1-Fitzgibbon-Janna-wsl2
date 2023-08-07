@@ -1,13 +1,17 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-const Contact = ()=> {
-  return (
-  <ContactStyled className='Contact' >
-    <h1>Contact</h1>
+/*-----components----------------------*/
+import Inset from "@/Common/PagesLayout/Inset";
 
-  </ContactStyled>
-  );
-}
+const Contact = () => {
+    return (
+        <ContactStyled className="Contact">
+            <Inset>
+                <h1>Contact</h1>
+            </Inset>
+        </ContactStyled>
+    );
+};
 
 export default Contact;
 
