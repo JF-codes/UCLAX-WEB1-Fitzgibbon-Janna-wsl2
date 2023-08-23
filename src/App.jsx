@@ -6,13 +6,16 @@ import PagesLayout from "./Common/PagesLayout/PagesLayout";
 /*Pages: Primary -------*/
 import PrimaryLayout from "./Pages/Primary/PrimaryLayout";
 import Home from "./Pages/Primary/Home/Home";
-import Staff from "./Pages/Primary/Staff/Staff";
+import Coffee from "./Pages/Primary/Coffee/Coffee";
 import Contact from "./Pages/Primary/Contact/Contact";
 
 /*Pages: Course Work -------*/
 import CourseWorkLayout from "./Pages/CourseWork/CourseWorkLayout";
 import Essays from "./Pages/CourseWork/Essays/Essays";
-import SunAndMoon from "./Pages/CourseWork/SunAndMoon/SunAndMoon";
+
+/* 3rd Party PAckage*/
+import Video from "./Pages/CourseWork/3rdPartyPackage/Video";
+
 import Responsive from "./Pages/CourseWork/Responsive";
 const App = () => {
     return (
@@ -20,14 +23,15 @@ const App = () => {
             <Route element={<PagesLayout />}>
                 <Route element={<PrimaryLayout />} path="">
                     <Route element={<Home />} path="" />
-                    <Route element={<Staff />} path="Staff" />
-                    <Route element={<Contact />} path="Contact" />
+                    <Route element={<Coffee />} path="coffee" />
+                    <Route element={<Contact />} path="contact" />
                 </Route>
 
                 <Route element={<CourseWorkLayout />} path="course-work">
+                    <Route element={<Video />} path="" />
+                    {/*
                     <Route element={<Essays />} path="" />
-                    <Route element={<SunAndMoon />} path="sun-and-moon" />
-                    <Route element={<Responsive />} path="responsive" />
+                    <Route element={<Responsive />} path="responsive" /> */}
                 </Route>
             </Route>
         </Routes>

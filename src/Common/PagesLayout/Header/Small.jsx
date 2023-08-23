@@ -40,14 +40,14 @@ const Small = () => {
                     <NavLink onClick={hideMenu} to={"/"} end>
                         Home
                     </NavLink>
-                    <NavLink onClick={hideMenu} to={"/staff"}>
-                        Staff
+                    <NavLink onClick={hideMenu} to={"/coffee"}>
+                        Coffee
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/contact"}>
                         Contact
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/course-work"}>
-                        Course
+                        Video
                     </NavLink>
                 </nav>
             )}
@@ -75,7 +75,7 @@ const SmallStyled = styled.div`
         top: 300px;
         right: 0px;
         bottom: 0px;
-        background-color: #034444;
+        background-color: #d0b19d;
     }
 
     a {
@@ -88,7 +88,7 @@ const SmallStyled = styled.div`
         &:hover,
         &:active,
         &:focus {
-            background-color: #043434;
+            background-color: #9f8777;
         }
     }
 `;

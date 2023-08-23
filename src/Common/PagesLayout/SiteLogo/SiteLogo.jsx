@@ -1,26 +1,26 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 /* Images ---------------------------*/
-import logoUrl from './crossfit-decimate-logo.png';
+import logoUrl from "./coffeelogo.jpg";
 
 const SiteLogo = () => {
     return (
-        <SiteLogoStyled className='SiteLogo'>
-            <img src={ logoUrl } alt='CrossFit Decimate Logo' />
+        <SiteLogoStyled className="SiteLogo">
+            <img src={logoUrl} alt="Organic Coffee Co logo" />
         </SiteLogoStyled>
     );
-}
+};
 
 export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
-    color: #13bbbb;
     width: 100%;
     height: 100%;
 
     img {
-        width: 100%;
+        width: 50%;
+        border-radius: 20px;
         height: auto;
     }
 `;

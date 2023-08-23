@@ -6,7 +6,7 @@ import axios from "axios";
 
 const Form = ({ getSubmissions }) => {
     //NAME
-    const [inputName, inputNameUpdate] = useState("Slim shady");
+    const [inputName, inputNameUpdate] = useState("Enter Your Name");
 
     const inputNameOnChange = (e) => {
         const theValue = e.target.value;
@@ -15,7 +15,7 @@ const Form = ({ getSubmissions }) => {
     };
 
     //Email
-    const [inputEmail, inputEmailUpdate] = useState("Slim@shady.com");
+    const [inputEmail, inputEmailUpdate] = useState("YourEmail@.com");
 
     const inputEmailOnChange = (e) => {
         const theValue = e.target.value;
@@ -25,7 +25,7 @@ const Form = ({ getSubmissions }) => {
 
     //Message
     const [inputMessage, inputMessageUpdate] = useState(
-        "Will the real shady please stand up."
+        "Please Enter Your Message Here."
     );
 
     const inputMessageOnChange = (e) => {
@@ -119,7 +119,7 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #d0b19d;
         padding: 10px 5px;
         color: white;
         width: 150px;
@@ -130,10 +130,10 @@ const FormStyled = styled.form`
 
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #b09273;
         }
         &:active {
-            background-color: #002020;
+            background-color: #866038;
         }
     }
 `;
