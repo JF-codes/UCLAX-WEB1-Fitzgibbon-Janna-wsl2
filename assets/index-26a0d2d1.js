@@ -1113,7 +1113,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     margin: 10px 0px;
 `,qb=({submissions:e})=>C(Zb,{className:"SubmissionList",children:e.map(t=>C(Gb,{submission:t},t.id))}),Zb=H.div`
     margin: 20px 0px;
-`,eC=()=>{const[e,t]=O.useState([]),n=async()=>{const{data:r}=await Qg.get("http://localhost:4059/submissions");t(r)};return O.useEffect(()=>{},[]),C(tC,{className:"Contact",children:ne(Xr,{children:[C("h1",{children:"Contact"}),C(Xb,{getSubmissions:n}),C(qb,{submissions:e})]})})},tC=H.div``,nC=()=>C(rC,{className:"CourseWorkLayout",children:ne(Xr,{children:[C("h1",{children:"Course Work"}),C("nav",{className:"sublinks",children:C(zt,{to:"/course-work",end:!0,children:"Video"})}),C(Zc,{})]})}),rC=H.main``;H.div`
+`,eC=()=>{const[e,t]=O.useState([]),n=async()=>{const{data:r}=await Qg.get("http://localhost:4059/submissions");t(r)};return O.useEffect(()=>{},[]),C(tC,{className:"Contact",children:ne(Xr,{children:[C("h1",{children:"Contact"}),C(Xb,{getSubmissions:n}),C(qb,{submissions:e})]})})},tC=H.div``,nC=()=>C(rC,{className:"CourseWorkLayout",children:ne(Xr,{children:[C("h1",{children:"Course Work"}),C("nav",{className:"sublinks",children:C(zt,{to:"/course-work",end:!0,children:"Order"})}),C(Zc,{})]})}),rC=H.main``;H.div`
     margin: 20px 0px;
     border: solid 2px #d0b19d;
 
