@@ -13,9 +13,6 @@ import Contact from "./Pages/Primary/Contact/Contact";
 import CourseWorkLayout from "./Pages/CourseWork/CourseWorkLayout";
 import Essays from "./Pages/CourseWork/Essays/Essays";
 
-/* 3rd Party PAckage*/
-import Video from "./Pages/CourseWork/3rdPartyPackage/Video";
-
 import Responsive from "./Pages/CourseWork/Responsive";
 const App = () => {
     return (
@@ -28,7 +25,6 @@ const App = () => {
                 </Route>
 
                 <Route element={<CourseWorkLayout />} path="course-work">
-                    <Route element={<Video />} path="" />
                     {/*
                     <Route element={<Essays />} path="" />
                     <Route element={<Responsive />} path="responsive" /> */}

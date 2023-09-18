@@ -14,6 +14,5 @@ export default defineConfig({
     build: {
         outDir: "./build",
     },
-
     base: "/UCLAX-WEB1-Fitzgibbon-Janna-wsl2/",
 });
