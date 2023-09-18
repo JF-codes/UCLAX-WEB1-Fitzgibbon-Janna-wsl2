@@ -20,7 +20,7 @@ const MediumLarge = () => {
                             </NavLink>
                             <NavLink to={"/coffee"}>Our Coffee</NavLink>
                             <NavLink to={"/contact"}>Contact Us</NavLink>
-                            <NavLink to={"/course-work"}>Video</NavLink>
+                            <NavLink to={"/course-work"}>Order</NavLink>
                         </nav>
                     </div>
                 </div>

@@ -47,7 +47,7 @@ const Small = () => {
                         Contact
                     </NavLink>
                     <NavLink onClick={hideMenu} to={"/course-work"}>
-                        Video
+                        Order
                     </NavLink>
                 </nav>
             )}
