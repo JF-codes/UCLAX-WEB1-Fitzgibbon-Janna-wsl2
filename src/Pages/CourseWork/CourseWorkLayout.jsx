@@ -16,7 +16,7 @@ const CourseWorkLayout = () => {
 
                     <NavLink to="/course-work/responsive">Responsive</NavLink> */}
                     <NavLink to="/course-work" end>
-                        Video
+                        Order
                     </NavLink>
                 </nav>
                 <Outlet />
