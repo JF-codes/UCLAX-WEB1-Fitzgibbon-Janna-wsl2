@@ -82,7 +82,7 @@ Error generating stack: `+o.message+`
         border-radius: 20px;
         height: auto;
     }
-`,NS=()=>C(AS,{className:"MediumLarge",children:C(Xr,{children:ne("div",{className:"row",children:[C("div",{className:"logo",children:C(af,{})}),C("div",{className:"menus",children:ne("nav",{className:"mainMenu",children:[C(zt,{to:"/",end:!0,children:"Home"}),C(zt,{to:"/coffee",children:"Our Coffee"}),C(zt,{to:"/contact",children:"Contact Us"}),C(zt,{to:"/course-work",children:"Video"})]})})]})})}),AS=H.div`
+`,NS=()=>C(AS,{className:"MediumLarge",children:C(Xr,{children:ne("div",{className:"row",children:[C("div",{className:"logo",children:C(af,{})}),C("div",{className:"menus",children:ne("nav",{className:"mainMenu",children:[C(zt,{to:"/",end:!0,children:"Home"}),C(zt,{to:"/coffee",children:"Our Coffee"}),C(zt,{to:"/contact",children:"Contact Us"}),C(zt,{to:"/course-work",children:"Order"})]})})]})})}),AS=H.div`
     color: white;
 
     .row {
@@ -903,7 +903,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     font-size: 30px;
     color: white;
     cursor: pointer;
-`,A2=()=>{const[e,t]=O.useState(!1),n=()=>{t(!e)},r=()=>{t(!1)};return O.useEffect(()=>(e?document.body.classList.add("modal-open"):document.body.classList.remove("modal-open"),()=>{document.body.classList.remove("modal-open")}),[e]),ne(L2,{className:"Small",children:[C(af,{}),C(T2,{toggleMenu:n}),e&&ne("nav",{className:"mainMenu",children:[C(zt,{onClick:r,to:"/",end:!0,children:"Home"}),C(zt,{onClick:r,to:"/coffee",children:"Coffee"}),C(zt,{onClick:r,to:"/contact",children:"Contact"}),C(zt,{onClick:r,to:"/course-work",children:"Video"})]})]})},L2=H.div`
+`,A2=()=>{const[e,t]=O.useState(!1),n=()=>{t(!e)},r=()=>{t(!1)};return O.useEffect(()=>(e?document.body.classList.add("modal-open"):document.body.classList.remove("modal-open"),()=>{document.body.classList.remove("modal-open")}),[e]),ne(L2,{className:"Small",children:[C(af,{}),C(T2,{toggleMenu:n}),e&&ne("nav",{className:"mainMenu",children:[C(zt,{onClick:r,to:"/",end:!0,children:"Home"}),C(zt,{onClick:r,to:"/coffee",children:"Coffee"}),C(zt,{onClick:r,to:"/contact",children:"Contact"}),C(zt,{onClick:r,to:"/course-work",children:"Order"})]})]})},L2=H.div`
     color: white;
     display: flex;
     justify-content: center;
