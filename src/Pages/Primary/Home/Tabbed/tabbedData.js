@@ -7,7 +7,7 @@ export const tabbedData = [
         id: 1,
         image: image1,
         title: "About Us",
-        text: "<p>Organic Coffee Co. is an organic coffee company that sources only the finest organically grown coffee beans from around the world. We offer a monthly coffee subscription service for our members to try the many variations of only our finest coffees. </p>",
+        text: "<p>Coffee Organics Co. is an organic coffee company that sources only the finest organically grown coffee beans from around the world. We offer a monthly coffee subscription service for our members to try the many variations of only our finest coffees. </p>",
     },
     {
         id: 2,

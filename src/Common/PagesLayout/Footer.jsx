@@ -12,7 +12,7 @@ const Footer = () => {
                     <SiteLogo />
                 </div>
                 <h2>
-                    12345 ABC St. Los Angeles, CA. 12345 OrganicsCoffeeCo.com
+                    12345 ABC St. Anytown, Anystate. 12345 CoffeeOrganicsCo.com
                 </h2>
                 <div className="copyright">
                     &copy; 2023. All rights reserved.

@@ -7,7 +7,7 @@ export const slidesData = [
     {
         id: 1,
         image: slide1,
-        title: "Organic Coffee Co.",
+        title: "Coffee Organics Co.",
     },
     {
         id: 2,
